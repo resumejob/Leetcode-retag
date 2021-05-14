@@ -5,6 +5,32 @@
 - 增加难度分类，适合从简单开始学习
 - 增加细分类别，例如单调栈，前缀树等
 
+- 链表
+    - 单链表
+    - 双链表
+- 树
+    - 遍历
+    - 构建
+    - 路径 | 深度 | 翻转
+    - 二叉搜索树
+    - 前缀树
+    - 线段树
+- 栈
+    - 基础
+    - 单调栈
+- 堆
+    - 基础
+    - 贪心
+- 二分查找
+- 哈希表 | 双指针
+- 矩阵运算
+- 克隆
+- 滑动窗口
+- 数学
+- 动态规划
+    - 一维
+    - 二维
+
 ## 𐁙 链表
 
 ### 单链表：
@@ -62,21 +88,6 @@
 
 ## 𐀴 树
 
-### 二叉搜索树
-
-##### 简单
-- [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
-
-##### 中等
-- [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
-- [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
-- [95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
-- [173. 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
-- [230. 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
-
-##### 困难
-- [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)
-
 ### 遍历
 
 ##### 简单
@@ -92,7 +103,6 @@
 - [107. 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
 - [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
-
 
 ### 路径 | 深度 | 翻转
 
@@ -121,6 +131,55 @@
 ##### 困难
 - [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 - [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
+
+### 二叉搜索树
+
+##### 简单
+- [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+##### 中等
+- [98. 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)
+- [96. 不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees/)
+- [95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
+- [173. 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
+- [230. 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
+
+##### 困难
+- [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)
+
+### 字典树
+
+##### 简单
+
+- [720. 词典中最长的单词](https://leetcode-cn.com/problems/longest-word-in-dictionary/)
+
+##### 中等
+
+- [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+- [692. 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)
+- [421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+
+##### 困难
+
+- [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
+
+### 线段树
+
+##### 中等
+
+- [1353. 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/)
+- [307. 区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/)
+
+##### 困难
+
+- [315. 计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)
+- [493. 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
+- [218. 天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)
+- [715. Range 模块](https://leetcode-cn.com/problems/range-module/)
+- [850. 矩形面积 II](https://leetcode-cn.com/problems/rectangle-area-ii/)
+- [1157. 子数组中占绝大多数的元素](https://leetcode-cn.com/problems/online-majority-element-in-subarray/)
+- [699. 掉落的方块](https://leetcode-cn.com/problems/falling-squares/)
+- [327. 区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/)
 
 
 ## 𐃭 栈
@@ -206,6 +265,40 @@
 - [373. 查找和最小的K对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)
 - [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)
 
+## 二分查找
+
+##### 简单
+- [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+- [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)
+- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+- [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+- [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
+- [278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)
+
+##### 中等
+- [300. 最长递增子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/)
+- [74. 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [81. 搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
+- [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+- [454. 四数相加 II](https://leetcode-cn.com/problems/4sum-ii/)
+- [240. 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/)
+- [718. 最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)
+- [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
+- [29. 两数相除](https://leetcode-cn.com/problems/divide-two-integers/)
+- [287. 寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)
+- [209. 长度最小的子数组](https://leetcode-cn.com/problems/minimum-size-subarray-sum/)
+- [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+- [162. 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/)
+- [378. 有序矩阵中第 K 小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)
+- [230. 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
+
+##### 困难
+- [4. 寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)
+- [887. 鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/)
+- [410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)
+- [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+
 
 ## 𐀋 动态规划
 
@@ -253,6 +346,7 @@
 - [132. 分割回文串 II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)
 - [44. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)
 - [410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)
+
 
 ## 贪心
 
