@@ -1,12 +1,12 @@
 # Leetcode-retag
-重新分类 Leetcode 高频题
+重新分类 Leetcode 高频题 2021 版
 
 - 题目按照面试频率降序排列
 - 增加难度分类，适合从简单开始学习
 - 增加细分类别，例如单调栈，前缀树等
 
 # 目录
-- 链表
+- [链表](#𐁙-链表)
     - 单链表
     - 双链表
 - 树
@@ -15,13 +15,12 @@
     - 路径 | 深度 | 翻转
     - 二叉搜索树
     - 前缀树
-    - 线段树
+    - * 线段树
 - 栈
     - 基础
     - 单调栈
 - 堆
     - 基础
-    - 贪心
 - 二分查找
 - 双指针 | 滑动窗口
 - 矩阵
@@ -31,14 +30,18 @@
 - 图论
     - DFS
     - BFS
+    - Dijkstra
+    - 拓扑排序
+- 贪心
 - 回溯
-- 最大最小策略
 - 克隆
 - 数学
+- \* 最大最小策略
+- \* 几何
 
 ## 𐁙 链表
 
-### 单链表：
+#### 单链表：
 
 ###### 简单：
 
@@ -72,7 +75,7 @@
 ###### 困难
 - [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 
-### 双链表：
+#### 双链表：
 
 ###### 简单：
 
@@ -91,7 +94,7 @@
 
 ## 𐀴 树
 
-### 遍历
+#### 遍历
 
 ###### 简单
 
@@ -107,7 +110,7 @@
 - [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 
-### 路径 | 深度 | 翻转
+#### 路径 | 深度 | 翻转
 
 ###### 简单
 
@@ -140,7 +143,7 @@
 - [124. 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 - [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
 
-### 二叉搜索树
+#### 二叉搜索树
 
 ###### 简单
 
@@ -158,7 +161,7 @@
 
 - [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)
 
-### 字典树
+#### 字典树
 
 ###### 简单
 
@@ -174,7 +177,7 @@
 
 - [212. 单词搜索 II](https://leetcode-cn.com/problems/word-search-ii/)
 
-### 线段树
+#### 线段树
 
 ###### 中等
 
@@ -195,7 +198,7 @@
 
 ## 𐃭 栈
 
-### 基础
+#### 基础
 
 ###### 简单
 
@@ -230,7 +233,7 @@
 - [726. 原子的数量](https://leetcode-cn.com/problems/number-of-atoms/)
 
 
-### 单调栈
+#### 单调栈
 
 ###### 简单
 
@@ -253,7 +256,7 @@
 
 ## 𐂧 堆
 
-### 基础
+#### 基础
 
 ###### 简单
 
@@ -277,14 +280,6 @@
 - [295. 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
 - [218. 天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)
 
-### 贪心
-
-###### 中等
-
-- [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
-- [767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/)
-- [373. 查找和最小的 K 对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)
-- [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)
 
 ## 二分查找
 
@@ -478,7 +473,12 @@
 
 ###### 中等
 
+- [264. 丑数 II](https://leetcode-cn.com/problems/ugly-number-ii/)
 - [946. 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
+- [767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string/)
+- [373. 查找和最小的 K 对数字](https://leetcode-cn.com/problems/find-k-pairs-with-smallest-sums/)
+- [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)
+
 
 ## 回溯
 
@@ -506,19 +506,6 @@
 - [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
 - [1659. 最大化网格幸福感](https://leetcode-cn.com/problems/maximize-grid-happiness/)
 
-## 极大极小化
-
-###### 简单
-
-- [292. Nim 游戏](https://leetcode-cn.com/problems/nim-game/)
-
-###### 中等
-
-- [375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/)
-- [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)
-- [464. 我能赢吗](https://leetcode-cn.com/problems/can-i-win/)
-- [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/)
-
 ## 克隆
 
 ###### 中等
@@ -545,6 +532,20 @@
 ###### 困难
 
 - [149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/)
+
+
+## 极大极小化
+
+###### 简单
+
+- [292. Nim 游戏](https://leetcode-cn.com/problems/nim-game/)
+
+###### 中等
+
+- [375. 猜数字大小 II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii/)
+- [486. 预测赢家](https://leetcode-cn.com/problems/predict-the-winner/)
+- [464. 我能赢吗](https://leetcode-cn.com/problems/can-i-win/)
+- [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/)
 
 ## 几何
 
