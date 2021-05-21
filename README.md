@@ -3,43 +3,46 @@
 
 - 题目按照面试频率降序排列
 - 增加难度分类，适合从简单开始学习
-- 增加细分类别，例如单调栈，前缀树等
+- 增加细分类别，例如单调栈，前缀树等，一道题目可能会有多个类别
 
 # 目录
-- [链表](#𐁙-链表)
+- [𐀴 链表](#𐀴-链表)
     - 单链表
     - 双链表
-- 树
+- [𐀴 树](#𐀴-树)
     - 遍历
-    - 构建
+    - 构造
     - 路径 | 深度 | 翻转
     - 二叉搜索树
     - 前缀树
     - * 线段树
-- 栈
+- [𐀴 栈](#𐀴-栈)
     - 基础
     - 单调栈
-- 堆
+- [𐀴 堆](#𐀴-堆)
     - 基础
-- 二分查找
-- 双指针 | 滑动窗口
-- 矩阵
-- 动态规划
+- [𐀴 二分查找](#𐀴-二分查找)
+- [𐀴 位运算](#𐀴-位运算)
+- [𐀴 双指针与滑动窗口](#𐀴-双指针与滑动窗口)
+- [𐀴 矩阵](#𐀴-矩阵)
+- [𐀴 动态规划](#𐀴-动态规划)
     - 一维
     - 二维
-- 图论
+- [𐀴 图论](#𐀴-图论)
     - DFS
     - BFS
     - Dijkstra
     - 拓扑排序
-- 贪心
-- 回溯
-- 克隆
-- 数学
-- \* 最大最小策略
-- \* 几何
+- [𐀴 并查集](#𐀴-并查集)
+- [𐀴 设计](#𐀴-设计)
+- [𐀴 贪心](#𐀴-贪心)
+- [𐀴 回溯](#𐀴-回溯)
+- [𐀴 克隆](#𐀴-克隆)
+- [𐀴 数学](#𐀴-数学)
+- [𐀴 \* 最大最小策略](#𐀴-*最大最小策略)
+- [𐀴 \* 几何](#𐀴-*几何)
 
-## 𐁙 链表
+## 𐀴 链表
 
 #### 单链表：
 
@@ -100,15 +103,30 @@
 
 - [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 - [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [589. N 叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/)
+- [590. N 叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
 
 ###### 中等
 
-- [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [102. 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 - [103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
 - [107. 二叉树的层序遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
-- [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 - [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+
+#### 构造
+
+###### 简单
+- [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+###### 中等
+- [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+- [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+- [114. 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
+- [889. 根据前序和后序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
+- [1008. 前序遍历构造二叉搜索树](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal/)
+
+###### 困难
+- [297. 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
 
 #### 路径 | 深度 | 翻转
 
@@ -196,7 +214,7 @@
 - [327. 区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum/)
 
 
-## 𐃭 栈
+## 𐀴 栈
 
 #### 基础
 
@@ -254,7 +272,7 @@
 - [321. 拼接最大数](https://leetcode-cn.com/problems/create-maximum-number/)
 
 
-## 𐂧 堆
+## 𐀴 堆
 
 #### 基础
 
@@ -281,7 +299,7 @@
 - [218. 天际线问题](https://leetcode-cn.com/problems/the-skyline-problem/)
 
 
-## 二分查找
+## 𐀴 二分查找
 
 ###### 简单
 
@@ -318,7 +336,32 @@
 - [410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)
 - [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 
-## 双指针
+## 𐀴 位运算
+
+###### 简单
+
+- [136. 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+- [191. 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
+- [169. 多数元素](https://leetcode-cn.com/problems/majority-element/)
+- [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
+- [231. 2的幂](https://leetcode-cn.com/problems/power-of-two/)
+- [389. 找不同](https://leetcode-cn.com/problems/find-the-difference/)
+- [461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
+- [405. 数字转换为十六进制数](https://leetcode-cn.com/problems/convert-a-number-to-hexadecimal/)
+- [268. 丢失的数字](https://leetcode-cn.com/problems/missing-number/)
+
+###### 中等
+
+- [78. 子集](https://leetcode-cn.com/problems/subsets/)
+- [338. 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
+- [1318. 或运算的最小翻转次数](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
+- [89. 格雷编码](https://leetcode-cn.com/problems/gray-code/)
+- [260. 只出现一次的数字 III](https://leetcode-cn.com/problems/single-number-iii/)
+- [371. 两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/)
+- [137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/)
+- [421. 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+
+## 𐀴 双指针与滑动窗口
 
 ###### 简单
 
@@ -353,7 +396,7 @@
 - [76. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring/)
 - [992. K 个不同整数的子数组](https://leetcode-cn.com/problems/subarrays-with-k-different-integers/)
 
-## 矩阵
+## 𐀴 矩阵
 
 ###### 简单
 
@@ -367,7 +410,7 @@
 - [73. 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
 - [48. 旋转图像](https://leetcode-cn.com/problems/rotate-image/)
 
-## 𐀋 动态规划
+## 𐀴 动态规划
 
 ### 一维
 
@@ -419,7 +462,7 @@
 - [44. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching/)
 - [410. 分割数组的最大值](https://leetcode-cn.com/problems/split-array-largest-sum/)
 
-## 图论
+## 𐀴 图论
 
 ### DFS
 
@@ -469,7 +512,60 @@
 
 - [787. K 站中转内最便宜的航班](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops/)
 
-## 贪心
+### 拓扑排序
+
+###### 中等
+
+- [207. 课程表](https://leetcode-cn.com/problems/course-schedule/)
+- [210. 课程表 II](https://leetcode-cn.com/problems/course-schedule-ii/)
+
+###### 困难
+
+- [329. 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix/)
+- [1203. 项目管理](https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies/)
+
+## 𐀴 并查集
+
+###### 中等
+
+- [200. 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+- [721. 账户合并](https://leetcode-cn.com/problems/accounts-merge/)
+- [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces/)
+- [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/)
+- [1631. 最小体力消耗路径](https://leetcode-cn.com/problems/path-with-minimum-effort/)
+- [399. 除法求值](https://leetcode-cn.com/problems/evaluate-division/)
+- [1319. 连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/)
+- [684. 冗余连接](https://leetcode-cn.com/problems/redundant-connection/)
+
+###### 困难
+
+- [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/)
+- [765. 情侣牵手](https://leetcode-cn.com/problems/couples-holding-hands/)
+
+## 𐀴 设计
+
+###### 简单
+
+- [1603. 设计停车系统](https://leetcode-cn.com/problems/design-parking-system/)
+- [705. 设计哈希集合](https://leetcode-cn.com/problems/design-hashset/)
+- [706. 设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/)
+- [703. 数据流中的第 K 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)
+
+###### 中等
+
+- [146. LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+- [341. 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
+- [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+- [173. 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
+- [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
+- [380. O(1) 时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/)
+
+###### 困难
+
+- [295. 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
+- [460. LFU 缓存](https://leetcode-cn.com/problems/lfu-cache/)
+
+## 𐀴 贪心
 
 ###### 中等
 
@@ -480,7 +576,7 @@
 - [313. 超级丑数](https://leetcode-cn.com/problems/super-ugly-number/)
 
 
-## 回溯
+## 𐀴 回溯
 
 ###### 中等
 
@@ -506,14 +602,14 @@
 - [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
 - [1659. 最大化网格幸福感](https://leetcode-cn.com/problems/maximize-grid-happiness/)
 
-## 克隆
+## 𐀴 克隆
 
 ###### 中等
 
 - [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/)
 - [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
 
-## 数学
+## 𐀴 数学
 
 ##### 简单
 
@@ -534,7 +630,7 @@
 - [149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/)
 
 
-## 极大极小化
+## 𐀴 *极大极小化
 
 ###### 简单
 
@@ -547,7 +643,7 @@
 - [464. 我能赢吗](https://leetcode-cn.com/problems/can-i-win/)
 - [877. 石子游戏](https://leetcode-cn.com/problems/stone-game/)
 
-## 几何
+## 𐀴 *几何
 
 ###### 简单
 
