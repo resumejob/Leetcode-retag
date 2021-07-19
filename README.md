@@ -174,9 +174,6 @@
 - [95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/)
 - [173. 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
 - [230. 二叉搜索树中第 K 小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
-
-###### 困难
-
 - [99. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/)
 
 #### 字典树
