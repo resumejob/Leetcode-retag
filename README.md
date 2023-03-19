@@ -300,12 +300,12 @@
 
 ###### 简单
 
-- [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/)
+- [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/) 😄
 - [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)
-- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/)
+- [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) 😄
 - [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 - [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
-- [278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/)
+- [278. 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) 😄
 
 ###### 中等
 
